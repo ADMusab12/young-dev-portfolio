@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Young Dev – Android Developer</title>
+<meta name="description" content="Young Dev – Android developer. Apps: WiFi Analyzer & Speed Test, QR Scanner Pro.">
+<style>
+:root{--bg:#f3f6f4;--ink:#10201a;--mute:#566a61;--card:#fff;--line:#d5e0da;--acc:#0b8a5f;--accink:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1714;--ink:#e8f1ed;--mute:#97aba2;--card:#15211d;--line:#243630;--acc:#3ddc97;--accink:#06281b}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",system-ui,sans-serif;line-height:1.6}
+main{max-width:720px;margin:0 auto;padding:56px 22px 64px}
+.avatar{width:64px;height:64px;border-radius:18px;background:var(--acc);color:var(--accink);display:grid;place-items:center;font-weight:700;font-size:26px}
+h1{font-size:clamp(40px,9vw,64px);line-height:1.05;margin:24px 0 8px;letter-spacing:-.03em}
+.role{color:var(--acc);font-weight:600;font-size:18px;margin:0 0 16px}
+.lead{color:var(--mute);font-size:18px;max-width:52ch;margin:0 0 32px}
+h2{font-size:22px;margin:48px 0 16px}
+.apps{display:grid;gap:14px}
+.app{display:flex;gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.ico{flex:none;width:64px;height:64px;border-radius:16px;background:var(--line);object-fit:cover}
+.app h3{margin:0;font-size:18px}
+.app p{margin:2px 0 0;color:var(--mute);font-size:15px}
+.go{margin-left:auto;flex:none;background:var(--acc);color:var(--accink);text-decoration:none;font-weight:600;padding:10px 16px;border-radius:10px}
+.skills{display:flex;flex-wrap:wrap;gap:10px;padding:0;list-style:none;margin:0}
+.skills li{border:1px solid var(--line);background:var(--card);padding:6px 14px;border-radius:999px;font-size:15px}
+a:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.contact a{color:var(--ink)}
+footer{margin-top:56px;color:var(--mute);font-size:14px}
+@media(max-width:520px){.app{flex-wrap:wrap}.go{margin-left:80px}}
+</style>
+</head>
+<body>
+<main>
+  <div class="avatar" aria-hidden="true">Y</div>
+  <h1>Young Dev</h1>
+  <p class="role">Android Developer</p>
+  <p class="lead">I build simple, fast and useful Android apps. Here are my apps, free to download and try.</p>
+
+  <h2>Apps</h2>
+  <div class="apps">
+    <div class="app">
+      <img class="ico" alt="WiFi Analyzer & Speed Test icon" width="64" height="64" src="https://static.rustore.ru/imgproxy/47mz-SG5DXMJvpbt7SOa16Aqau3zaJvdQdxyxHCnjGc/preset:web_app_icon_160/plain/https://static.rustore.ru/2026/10/2/2b/apk/2063764292/content/ICON/ae4f70bc-0ac9-4e1a-ae29-0bbac78aa0d8.jpg@webp">
+      <div><h3>WiFi Analyzer &amp; Speed Test</h3><p>Check internet speed, signal strength and WiFi details. No ads.</p></div>
+      <a class="go" href="https://www.rustore.ru/catalog/app/com.signalsense.wifitools" target="_blank" rel="noopener">Download</a>
+    </div>
+    <div class="app">
+      <img class="ico" alt="QR Scanner Pro icon" width="64" height="64" src="https://static.rustore.ru/imgproxy/_Uu_2qSgXRKKyY13Ph7WcyKvXzFwS0jNe3ROanbTMmo/preset:web_app_icon_160/plain/https://static.rustore.ru/2026/10/20/4a/apk/2063758855/content/ICON/6a04a48a-48d0-418f-b76a-4237df91a04d.jpg@webp">
+      <div><h3>QR Scanner Pro</h3><p>Fast QR and barcode scanner. Create QR codes, works offline.</p></div>
+      <a class="go" href="https://www.rustore.ru/catalog/app/com.quickscan.qrcode" target="_blank" rel="noopener">Download</a>
+    </div>
+  </div>
+
+  <h2>Skills</h2>
+  <ul class="skills"><li>Kotlin</li><li>Java</li><li>Jetpack Compose</li><li>Firebase</li><li>Material Design</li></ul>
+
+  <h2>Contact</h2>
+  <p class="contact"><a href="mailto:youngdev182@gmail.com">youngdev182@gmail.com</a></p>
+
+  <footer>© 2026 Young Dev</footer>
+</main>
+</body>
+</html>
